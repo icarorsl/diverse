@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d c:\_projects\git\diverse\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\_projects\git\diverse\build\CMakeFiles C:\_projects\git\diverse\build\CMakeFiles\progress.marks
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\_projects\git\diverse\build\CMakeFiles C:\_projects\git\diverse\build\CMakeFiles\progress.marks
+	$(MAKE) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\_projects\git\diverse\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\Makefile2 clean
+	$(MAKE) -f CMakeFiles\Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -96,17 +96,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d c:\_projects\git\diverse\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -128,7 +128,7 @@ src/core/DSObject.obj: src/core/DSObject.cpp.obj
 
 # target to build an object file
 src/core/DSObject.cpp.obj:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/core/DSObject.cpp.obj
+	$(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/core/DSObject.cpp.obj
 .PHONY : src/core/DSObject.cpp.obj
 
 src/core/DSObject.i: src/core/DSObject.cpp.i
@@ -137,7 +137,7 @@ src/core/DSObject.i: src/core/DSObject.cpp.i
 
 # target to preprocess a source file
 src/core/DSObject.cpp.i:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/core/DSObject.cpp.i
+	$(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/core/DSObject.cpp.i
 .PHONY : src/core/DSObject.cpp.i
 
 src/core/DSObject.s: src/core/DSObject.cpp.s
@@ -146,7 +146,7 @@ src/core/DSObject.s: src/core/DSObject.cpp.s
 
 # target to generate assembly for a file
 src/core/DSObject.cpp.s:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/core/DSObject.cpp.s
+	$(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/core/DSObject.cpp.s
 .PHONY : src/core/DSObject.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -155,7 +155,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/main.cpp.obj
+	$(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -164,7 +164,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -173,7 +173,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d c:\_projects\git\diverse\build && $(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles\hello-vsc.dir\build.make CMakeFiles/hello-vsc.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target

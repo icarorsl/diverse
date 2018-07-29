@@ -2,9 +2,8 @@
 #include <iostream>
 #include "DSObject.h"
 
-using namespace std;
-using namespace diverse;
-
+//using namespace std;
+//using namespace diverse;
 
 int main()
 {
