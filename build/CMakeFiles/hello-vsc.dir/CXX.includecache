@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/core/DSObject.h
+
+C:/_projects/git/diverse/src/main.cpp
+string
+-
+iostream
+-
+DSObject.h
+C:/_projects/git/diverse/src/DSObject.h
+
