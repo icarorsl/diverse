@@ -1,3 +1,0 @@
-C:/_projects/git/diverse/build/CMakeFiles/hello-vsc.dir
-C:/_projects/git/diverse/build/CMakeFiles/edit_cache.dir
-C:/_projects/git/diverse/build/CMakeFiles/rebuild_cache.dir
