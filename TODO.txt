@@ -1,0 +1,4 @@
+1. Inserts/updates/deletes are always added at the end of the file;
+2. Transactions are kept in a different file (maybe files??);
+3. Indexes are kept in different files;
+4. 

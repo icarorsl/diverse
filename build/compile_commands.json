@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/_projects/git/diverse/build",
+  "command": "C:\\_projects\\tools\\mingw32\\bin\\g++.exe   @CMakeFiles/hello-vsc.dir/includes_CXX.rsp -g   -o CMakeFiles\\hello-vsc.dir\\src\\main.cpp.obj -c C:\\_projects\\git\\diverse\\src\\main.cpp",
+  "file": "C:/_projects/git/diverse/src/main.cpp"
+},
+{
+  "directory": "C:/_projects/git/diverse/build",
+  "command": "C:\\_projects\\tools\\mingw32\\bin\\g++.exe   @CMakeFiles/hello-vsc.dir/includes_CXX.rsp -g   -o CMakeFiles\\hello-vsc.dir\\src\\core\\DSObject.cpp.obj -c C:\\_projects\\git\\diverse\\src\\core\\DSObject.cpp",
+  "file": "C:/_projects/git/diverse/src/core/DSObject.cpp"
+},
+{
+  "directory": "C:/_projects/git/diverse/build",
+  "command": "C:\\_projects\\tools\\mingw32\\bin\\g++.exe   @CMakeFiles/hello-vsc.dir/includes_CXX.rsp -g   -o CMakeFiles\\hello-vsc.dir\\src\\core\\DSPersist.cpp.obj -c C:\\_projects\\git\\diverse\\src\\core\\DSPersist.cpp",
+  "file": "C:/_projects/git/diverse/src/core/DSPersist.cpp"
+}
+]

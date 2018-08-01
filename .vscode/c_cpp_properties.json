@@ -2,9 +2,15 @@
     "configurations": [
         {
             "name": "Win32",
+            "_asd" : "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/**",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/**"
+                "${workspaceFolder}/**",                
+                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++",
+                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32",
+                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward",
+                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include",
+                "C:/_projects/tools/mingw32/include",
+                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
@@ -19,7 +25,8 @@
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "msvc-x64",
-            "configurationProvider": "vector-of-bool.cmake-tools"
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
     ],
     "version": 4

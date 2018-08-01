@@ -23,8 +23,18 @@
         "system_error": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "string": "cpp",
+        "fstream": "cpp",
+        "array": "cpp",
+        "utility": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "optional": "cpp",
+        "sstream": "cpp",
+        "tuple": "cpp"
     },
     "cmake.configureOnOpen": true,
-    "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe"
+    "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\hello-vsc.dir/objects.a
+C:\_projects\tools\mingw32\bin\ar.exe cr CMakeFiles\hello-vsc.dir/objects.a @CMakeFiles\hello-vsc.dir\objects1.rsp
+C:\_projects\tools\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\hello-vsc.dir/objects.a -Wl,--no-whole-archive  -o hello-vsc.exe -Wl,--out-implib,libhello-vsc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hello-vsc.dir\linklibs.rsp
