@@ -1,4 +1,5 @@
 #include "DSObject.h"
+#include "DSIndex.h"
 
 #pragma once
 
@@ -11,12 +12,15 @@ namespace diverse {
      */
 
     class DSPersist {
+        ofstream* ofilestream;
+        ifstream* ifilestream;
+
         public:
             DSPersist(const string fileName);
             virtual ~DSPersist() = default;
 
-            void Set(const DSObject dsobject);
-            bool Get(const string className, const string pid,  DSObject * dsobject) const;
+            DSIndex* Set(DSObject* dsobject);
+            DSObject* Get(const string className, const string pid, DSIndex* dsindex) const;
 
             void Close();
     };

@@ -2,15 +2,16 @@
     "configurations": [
         {
             "name": "Win32",
-            "_asd" : "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/**",
+            "_asd": "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/**",
             "includePath": [
-                "${workspaceFolder}/**",                
+                "${workspaceFolder}/**",
                 "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++",
                 "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32",
                 "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward",
                 "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include",
                 "C:/_projects/tools/mingw32/include",
-                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"
+                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed",
+                "C:/_projects/tools/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/tr1"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,

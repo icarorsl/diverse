@@ -31,23 +31,23 @@ namespace diverse {
          * 
          * It could be a JSON or whatever. Mayve it need to be changed to another type... like char * or so...
          */
-        string _content;
+        const char * _content;
 
         int _pageInit;
 
         public:
             DSObject();
-            DSObject(const string className, const string pid, const string content);
+            DSObject(const string className, const string pid, const char * content);
             virtual ~DSObject() = default;
 
             string GetClassName() const;
             string GetPid() const;
-            string GetContent() const;
+            const char * GetContent();
             int GetPageInit() const;
 
             void SetClassName(const string className);
             void SetPid(const string pid);
-            void SetContent(const string content);
+            void SetContent(const char * content);
             void SetPageInit(const int pageInit);
     };
 }

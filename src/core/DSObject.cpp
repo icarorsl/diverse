@@ -10,13 +10,12 @@ namespace diverse {
 
     }
 
-    DSObject::DSObject(const string className, const string pid, const string content)
+    DSObject::DSObject(const string className, const string pid, const char * content)
     {
         _className = className;
         _pid = pid;
         _content = content;
     }
-
 
     void DSObject::SetClassName(const string className) {
         _className = className;
@@ -26,7 +25,7 @@ namespace diverse {
         _pid = pid;
     }
 
-    void DSObject::SetContent(const string content) {
+    void DSObject::SetContent(const char * content) {
         _content = content;
     }
 
@@ -43,7 +42,7 @@ namespace diverse {
         return _pid;
     }
 
-    string DSObject::GetContent() const {
+    const char * DSObject::GetContent() {
         return _content;
     }
 
